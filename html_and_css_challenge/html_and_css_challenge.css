@@ -1,0 +1,226 @@
+/*=================================================
+    NAV BAR
+=================================================*/
+
+body {margin: 0;}
+
+.navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: "Times New Roman", Times, sans-serif;
+}
+
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+.main {
+    padding: 16px; 
+    margin-top: 30px;
+}
+/*==================================================
+    END NAV BAR
+===================================================*/
+
+/*===================================================
+    MIDDLE EARTH MAP
+====================================================*/
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    border-radius: 15px;
+}
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 8px;
+    left: 50px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008cba;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+/*==================================================
+    END MIDDLE EARTH MAP
+===================================================*/
+
+/*==================================================
+    CHARACTER TABLE
+===================================================*/
+
+table {
+    border: 2px solid black;
+}
+
+td:hover {
+    background-color: yellow;
+    color: black;
+}
+
+tr, th {
+    background-color: black;
+    color: green;
+}
+
+tr, td {
+    background-color: cadetblue;
+    color: white;
+}
+
+td {
+    padding: 15px;
+    text-align: center;
+}
+/*=================================================
+    END CHARACTER TABLE
+==================================================*/
+
+/*=================================================
+    TWO COLUMN LAYOUT
+=================================================*/
+
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 200px;
+}
+
+.row {
+    padding-top: 15px;
+}
+
+.row:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+h2 {
+    color: cadetblue;
+}
+/*=================================================
+    END TWO COLUMN LAYOUT
+==================================================*/
+
+/*=================================================
+    VIDEO
+==================================================*/
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+}
+
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*====================================================
+    FOOTER
+====================================================*/
+
+p {
+    text-align: center;
+    font-weight: bold;
+}
+/*======================================================
+    END FOOTER
+======================================================*/
